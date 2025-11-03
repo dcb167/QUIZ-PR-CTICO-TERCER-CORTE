@@ -69,6 +69,25 @@
                 return "De pie"
             else:
                 return "Sentado"
+  
+  + Por último, se podrá visualizar el contenido del cuarto archivo:
+
+          import streamlit as st
+          import cv2
+          from detector import detectar_postura
+
+        st.title("Detección de Postura con Mediapipe")
+
+        cam = st.camera_input("Activa tu cámara")
+
+        if cam:
+            bytes_data = cam.getvalue()
+            frame = cv2.imdecode(
+                np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR
+            )
+
+            postura = detectar_postura(frame)
+            st.markdown(f"### Postura detectada: **{postura}**")
 
 
 

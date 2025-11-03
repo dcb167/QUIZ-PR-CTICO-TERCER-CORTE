@@ -34,6 +34,12 @@
 
 <strong> Figura 6. </strong> Crear el archivo app (Contenido de Streamlit).
 
++ A continuación se podrá visualizar el contenido del primer archivo:
+
+mediapipe
+opencv-python
+streamlit
+
 
 
 

@@ -8,7 +8,9 @@
 
 <img width="589" height="233" alt="image" src="https://github.com/user-attachments/assets/2d47107e-4cb4-489d-b6be-378238887e13" /></br>
 
-<img width="589" height="206" alt="image" src="https://github.com/user-attachments/assets/53dc59d0-3da6-45c9-9b54-3711abe31e25" />
+<strong> Figura 1. </strong> Crear el entorno virtual en Windows y la instalación de dependencias de mediapipe y de streamlit.
 
+<img width="589" height="206" alt="image" src="https://github.com/user-attachments/assets/53dc59d0-3da6-45c9-9b54-3711abe31e25" /></br>
 
+<strong> Figura 2. </strong> Actualización de las dependencias a la más reciente.
 

@@ -34,19 +34,41 @@
 
 <strong> Figura 6. </strong> Crear el archivo app (Contenido de Streamlit).
 
-+ A continuación se podrá visualizar el contenido del primer archivo:
++ A continuación, se podrá visualizar el contenido del primer archivo:
 
         mediapipe
         opencv-python
         streamlit
 
-+ A continuación se podrá visualizar el contenido del primer archivo:
++ Enseguida, se podrá visualizar el contenido del segundo archivo:
 
         FROM python:3.10
         WORKDIR /app
         COPY . .
         RUN pip install mediapipe opencv-python streamlit
         CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
++ Seguido de ello, se podrá visualizar el contenido del tercer archivo:
+
+        import mediapipe as mp
+        import cv2
+
+        mp_pose = mp.solutions.pose
+        pose = mp_pose.Pose()
+
+        def detectar_postura(frame):
+            frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            res = pose.process(frame_rgb)
+            if not res.pose_landmarks:
+                return "Sin detectar"
+
+            hombro = res.pose_landmarks.landmark[mp_pose.PoseLandmark.LEFT_SHOULDER].y
+            cadera = res.pose_landmarks.landmark[mp_pose.PoseLandmark.LEFT_HIP].y
+
+            if abs(hombro - cadera) < 0.1:
+                return "De pie"
+            else:
+                return "Sentado"
 
 
 

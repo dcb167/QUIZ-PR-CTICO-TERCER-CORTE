@@ -14,3 +14,8 @@
 
 <strong> Figura 2. </strong> Actualización de las dependencias a la más reciente.
 
++ En segundo lugar, se hace necesario la creación de distintos archivos en Python los cuales serán mencionados a continuación:
+
+
+
+

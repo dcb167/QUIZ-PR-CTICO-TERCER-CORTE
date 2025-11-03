@@ -89,7 +89,13 @@
             postura = detectar_postura(frame)
             st.markdown(f"### Postura detectada: **{postura}**")
 
+  ### 3. Ejecutar la imagen y contenedor en Windows
 
++ De tal forma, que el resultado obtenido de visualización es el siguiente al crear la imagen llamada postura y ejecutar el contenedor:
+
+<img width="782" height="532" alt="image" src="https://github.com/user-attachments/assets/9f6a92ca-a11e-419f-942c-918163019f20" /></br>
+
+<strong> Figura 7. </strong> Visualización en Streamlit.
 
 
 

@@ -40,6 +40,13 @@
         opencv-python
         streamlit
 
++ A continuación se podrá visualizar el contenido del primer archivo:
+
+        FROM python:3.10
+        WORKDIR /app
+        COPY . .
+        RUN pip install mediapipe opencv-python streamlit
+        CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
 
 

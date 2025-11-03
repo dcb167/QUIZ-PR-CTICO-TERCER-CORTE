@@ -16,6 +16,9 @@
 
 + En segundo lugar, se hace necesario la creación de distintos archivos en Python los cuales serán mencionados a continuación:
 
+<img width="228" height="25" alt="image" src="https://github.com/user-attachments/assets/150f22f0-33fa-435f-88db-7cf635a5494d" />
+
+
 
 
 

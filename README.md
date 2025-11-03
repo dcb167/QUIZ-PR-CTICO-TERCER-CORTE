@@ -4,3 +4,11 @@
 
 ### 1. Creación del entorno virtual de Windows
 
++ En primer lugar, se hace necesario el crear el entorno virtual desde el terminal de Windows. A su vez, la instalación de las dependencias necesarias para que el programa se pueda ejecutar correctamente de la siguiente manera:
+
+<img width="589" height="233" alt="image" src="https://github.com/user-attachments/assets/2d47107e-4cb4-489d-b6be-378238887e13" />
+
+<img width="589" height="206" alt="image" src="https://github.com/user-attachments/assets/53dc59d0-3da6-45c9-9b54-3711abe31e25" />
+
+
+

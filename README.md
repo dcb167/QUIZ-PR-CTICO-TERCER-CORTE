@@ -14,6 +14,8 @@
 
 <strong> Figura 2. </strong> Actualización de las dependencias a la versión más reciente.
 
+### 2. Creación los archivos en Python
+
 + En segundo lugar, se hace necesario la creación de distintos archivos en Python los cuales serán mencionados a continuación:
 
 <img width="228" height="25" alt="image" src="https://github.com/user-attachments/assets/150f22f0-33fa-435f-88db-7cf635a5494d" /></br>

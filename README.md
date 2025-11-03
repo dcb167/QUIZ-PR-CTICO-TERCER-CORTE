@@ -36,9 +36,9 @@
 
 + A continuación se podrá visualizar el contenido del primer archivo:
 
-mediapipe
-opencv-python
-streamlit
+    mediapipe
+    opencv-python
+    streamlit
 
 
 
